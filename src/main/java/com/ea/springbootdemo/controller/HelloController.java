@@ -18,7 +18,12 @@ public class HelloController {
 //        return messageSource.getMessage("good.morning.message", null, locale);
 //    }
 
-    // Simplified of above method
+    /**
+     *  Simplified of above method
+     *  Need to change in postman headers
+     *  Key = Accept-Language
+     *  Value = fr (For French) from messaages_fr.properties
+     */
     @GetMapping(path = "/hello")
     public String getHello() {
         return messageSource.getMessage("good.morning.message", null, LocaleContextHolder.getLocale());
