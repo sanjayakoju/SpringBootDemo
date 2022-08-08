@@ -1,0 +1,2 @@
+Need to change in pom file
+uncomment jackson dependency to used SOAP service
