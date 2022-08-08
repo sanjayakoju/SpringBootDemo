@@ -1,0 +1,5 @@
+  /**
+     *  Need to put in postman headers
+     *  Key = Accept-Language
+     *  Value = fr (For French) from messaages_fr.properties
+     */
